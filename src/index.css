@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-golos {
+  font-family: 'Golos Text', sans-serif;
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -7,6 +18,9 @@
   --color-gray: #EBF0F5;
   --color-blue: #0054A2;
   --color-blue-500: #235DFF;
+  --color-blue-950: #132339;
+  --color-dark: #141414;
+
 }
 
 @theme inline {
