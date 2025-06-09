@@ -1,10 +1,19 @@
-import { Button } from './components/ui/button';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import TravelLayout from './modules/travels/layouts/TravelLayout';
+import { routes } from './routes';
 
 const App = () => {
   return (
-    <div>
-      <Button>HELLO WORLD</Button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<TravelLayout />}>
+          {routes.map((route) => (
+            <Route key={route.path} path={route.path} element={<route.component />} />
+          ))}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
