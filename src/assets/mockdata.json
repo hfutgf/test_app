@@ -1,0 +1,1308 @@
+{
+  "status": true,
+  "data": [
+    {
+      "id": "0x430A00000023000000073D00000009000001AB000000000CE837CDB31800000003A4260700003B6A000007B800002A1A0000000400000000000000000000000100000000B31F0000070000000000B82C700000000201010000636363B3180000B31F000001000000000200000000000000000000000000000000000000000000000000000000",
+      "hotel_key": 15210,
+      "adult": 1,
+      "child": 0,
+      "nights": 7,
+      "price": "1207",
+      "price_old": "",
+      "state_id": 9,
+      "town_from_id": 1853,
+      "town_name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+      "check_in": "20250712",
+      "check_out": "20250719",
+      "tour_key": 427,
+      "converted_price_number": 15691000,
+      "converted_price_old": "",
+      "room": "\u041e\u0434\u043d\u043e\u043c\u0435\u0441\u0442\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440",
+      "meal": "BB",
+      "hotel": {
+        "hotel_key": 15210,
+        "name": "Residence Inn by Marriott Trabzon",
+        "main_photo": "images/hotels/1746603788/zGJqhw1mcpatqL1.jpg",
+        "town_key": 1853,
+        "state_key": 9,
+        "star_key": 4,
+        "star": "4*",
+        "star_alt": "4",
+        "hotel_url": "",
+        "order_number": 0,
+        "widget": null,
+        "top_hotel_status": false,
+        "top_hotel_order": 0,
+        "tour_operator_id": 4,
+        "short_description": "Residence Inn by Marriott Trabzon Qora dengizga ajoyib ko'rinish va qulayliklar bilan jihozlangan.",
+        "detail": {
+          "id": 437,
+          "hotel_key": 15210,
+          "name": "Residence Inn Trabzon",
+          "location": {
+            "latitude": "40.964035",
+            "longitude": "39.82715",
+            "street1": "Muratli Caddesi Yorma",
+            "street2": "",
+            "city": "\u0419\u043e\u043c\u0440\u0430",
+            "state": "\u041f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u044f \u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+            "country": "\u0422\u0443\u0440\u0446\u0438\u044f",
+            "postalcode": "61290",
+            "address_string": "Muratli Caddesi Yorma, \u0419\u043e\u043c\u0440\u0430 61290 \u0422\u0443\u0440\u0446\u0438\u044f",
+            "geo_location_id": "4212819",
+            "geo_location_name": "\u0419\u043e\u043c\u0440\u0430"
+          },
+          "ratings": {
+            "overall": "4",
+            "rating_image": "tripadvisor_images/03193631797a9f10b9ab5034604901cb.svg",
+            "num_reviews": 1,
+            "details": {
+              "rating_1": 0,
+              "rating_2": 0,
+              "rating_3": 0,
+              "rating_4": 1,
+              "rating_5": 0,
+              "count": 1
+            }
+          },
+          "ranking": {
+            "position": "6",
+            "out_of": "34",
+            "display_string": "\u2116 6 \u0438\u0437 34 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432 \u0436\u0438\u043b\u044c\u044f \u043e\u0441\u043e\u0431\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u0432 \u0419\u043e\u043c\u0440\u0430"
+          },
+          "style": null,
+          "awards": []
+        },
+        "photos": [
+          {
+            "id": 14083,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/zGJqhw1mcpatqL1.jpg"
+          },
+          {
+            "id": 14052,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/GGqV56PEnGGLnZu.jpg"
+          },
+          {
+            "id": 14044,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/3T5XY1oelmJLblw.jpg"
+          },
+          {
+            "id": 14045,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/3hE9W0LmiOKaehF.jpg"
+          },
+          {
+            "id": 14046,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/4FqirbtI4MJHaJG.jpg"
+          },
+          {
+            "id": 14047,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/4pGjfnssjBLIgBh.jpg"
+          },
+          {
+            "id": 14048,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/76n91IBORHiK1v1.jpg"
+          },
+          {
+            "id": 14049,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/7c0HOD9m9SmB2IV.jpg"
+          },
+          {
+            "id": 14050,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/81Xkza4bNxF8THE.jpg"
+          },
+          {
+            "id": 14051,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/DL0Z2dGX4UiMzJx.jpg"
+          },
+          {
+            "id": 14053,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/I0YrYvp6xeU9fhF.jpg"
+          },
+          {
+            "id": 14054,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/KPbBBpQCn1dhmx0.jpg"
+          },
+          {
+            "id": 14055,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/KaAw1RkGik0ui0a.jpg"
+          },
+          {
+            "id": 14056,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/Kc7I5343w3U9Sgt.jpg"
+          },
+          {
+            "id": 14057,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/LaGC2r71h5eEXAH.jpg"
+          },
+          {
+            "id": 14058,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/LsiqjhkpSmcBGgj.jpg"
+          },
+          {
+            "id": 14059,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/MSi4W9b5t3ng65b.jpg"
+          },
+          {
+            "id": 14060,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/OlXMfW6k1NLjSYP.jpg"
+          },
+          {
+            "id": 14061,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/OtKgj4vLWI55fT7.jpg"
+          },
+          {
+            "id": 14062,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/PJ9LYS84BAlCAz5.jpg"
+          },
+          {
+            "id": 14063,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/VGaeCEjtkNdwjYs.jpg"
+          },
+          {
+            "id": 14064,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/Wh7S8WLz7UCOhu0.jpg"
+          },
+          {
+            "id": 14065,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/ZMDL8vhcKHqtqZJ.jpg"
+          },
+          {
+            "id": 14066,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/a65DRQqeC2t0QT3.jpg"
+          },
+          {
+            "id": 14067,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/bQ1lKXIE4LDRi67.jpg"
+          },
+          {
+            "id": 14068,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/cRpDSiCmdPjL6Nr.jpg"
+          },
+          {
+            "id": 14069,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/gIqmliQvDm5dhJQ.jpg"
+          },
+          {
+            "id": 14070,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/jaR6x0vtXfI0vRQ.jpg"
+          },
+          {
+            "id": 14071,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/kerf52tSmiyQmuy.jpg"
+          },
+          {
+            "id": 14072,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/lWgVklQwCfDVxpz.jpg"
+          },
+          {
+            "id": 14073,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/mMYK54rYPGXLcOZ.jpg"
+          },
+          {
+            "id": 14074,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/q8EfFp7xs4P5M8j.jpg"
+          },
+          {
+            "id": 14075,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/qkDS9e9xwVuRWxW.jpg"
+          },
+          {
+            "id": 14076,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/r485h4MpvCZH3Sg.jpg"
+          },
+          {
+            "id": 14077,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/rCuE273trjql7jR.jpg"
+          },
+          {
+            "id": 14078,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/s3BNmnn5RzaX4wz.jpg"
+          },
+          {
+            "id": 14079,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/uH2bGfKpHXrQP8a.jpg"
+          },
+          {
+            "id": 14080,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/uRGxkMLrIeb1z24.jpg"
+          },
+          {
+            "id": 14081,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/vBmyVPok5GGwbmU.jpg"
+          },
+          {
+            "id": 14082,
+            "hotel_key": 15210,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603788/vyxWqjrn7CqhGT7.jpg"
+          }
+        ],
+        "nearbyItems": [
+          {
+            "item_index": 1,
+            "title": "Trabzon Ayasofya Muzeyi",
+            "description": "Vizantiya merosini aks ettirgan tarixiy freskalar bilan arxitektura durdonasi.",
+            "distance": "5 kilometr"
+          },
+          {
+            "item_index": 2,
+            "title": "Atat\u00fcrk Saroyi",
+            "description": "Mustafa Kemal Atat\u00fcrk hayotidan turli artefaktlar namoyish etilgan tarixiy saroy.",
+            "distance": "6 kilometr"
+          },
+          {
+            "item_index": 3,
+            "title": "Boztepe Parki",
+            "description": "Trabzonning panoramik manzaralarini taqdim etadigan dam olish uchun ideal joy.",
+            "distance": "4 kilometr"
+          },
+          {
+            "item_index": 4,
+            "title": "Trabzon Qal'asi",
+            "description": "Shahar himoyasining tarixiy ko'rinishini taqdim etuvchi qadimgi qal'a.",
+            "distance": "5.5 kilometr"
+          },
+          {
+            "item_index": 5,
+            "title": "Forum Trabzon",
+            "description": "Turli xil xalqaro va mahalliy do'konlari bilan band savdo markazi.",
+            "distance": "2 kilometr"
+          }
+        ],
+        "gptDetails": {
+          "short_description": "Residence Inn by Marriott Trabzon Qora dengizga ajoyib ko'rinish va qulayliklar bilan jihozlangan."
+        },
+        "tags": []
+      }
+    },
+    {
+      "id": "0x430A00000023000000073D00000009000001AB000000000CE83813B31800000003A4260700003B6C000007B800002A1A0000000400000000000000000000000100000000B31F0000070000000000DA81800000000201010000636363B3180000B31F000001000000000200000000000000000000000000000000000000000000000000000000",
+      "hotel_key": 15212,
+      "adult": 1,
+      "child": 0,
+      "nights": 7,
+      "price": "1432",
+      "price_old": "",
+      "state_id": 9,
+      "town_from_id": 1853,
+      "town_name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+      "check_in": "20250712",
+      "check_out": "20250719",
+      "tour_key": 427,
+      "converted_price_number": 18616000,
+      "converted_price_old": "",
+      "room": "\u041e\u0434\u043d\u043e\u043c\u0435\u0441\u0442\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440",
+      "meal": "BB",
+      "hotel": {
+        "hotel_key": 15212,
+        "name": "Novotel Trabzon",
+        "main_photo": "hotel-photos/15212/266941_34208812.jpg",
+        "town_key": 1853,
+        "state_key": 9,
+        "star_key": 5,
+        "star": "5*",
+        "star_alt": "5",
+        "hotel_url": "",
+        "order_number": 0,
+        "widget": null,
+        "top_hotel_status": false,
+        "top_hotel_order": 0,
+        "tour_operator_id": 4,
+        "short_description": "Novotel Trabzon zamonaviy sharoitlar va dengiz manzarasi bilan dam olish va ish safari uchun ideal joy.",
+        "detail": {
+          "id": 436,
+          "hotel_key": 15212,
+          "name": "Novotel Trabzon",
+          "location": {
+            "latitude": "40.96893",
+            "longitude": "39.839504",
+            "street1": "Cumhuriyet Mahallesi",
+            "street2": "",
+            "city": "\u0419\u043e\u043c\u0440\u0430",
+            "state": "\u041f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u044f \u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+            "country": "\u0422\u0443\u0440\u0446\u0438\u044f",
+            "postalcode": "61000",
+            "address_string": "Cumhuriyet Mahallesi, \u0419\u043e\u043c\u0440\u0430 61000 \u0422\u0443\u0440\u0446\u0438\u044f",
+            "geo_location_id": "4212819",
+            "geo_location_name": "\u0419\u043e\u043c\u0440\u0430"
+          },
+          "ratings": {
+            "overall": "4.5",
+            "rating_image": "tripadvisor_images/dfb6abf239c4b0bfce232b4e23e9fb9c.svg",
+            "num_reviews": 714,
+            "details": {
+              "rating_1": 29,
+              "rating_2": 16,
+              "rating_3": 38,
+              "rating_4": 149,
+              "rating_5": 482,
+              "count": 714
+            }
+          },
+          "ranking": {
+            "position": "2",
+            "out_of": "26",
+            "display_string": "\u2116 2 \u0438\u0437 26 \u043e\u0442\u0435\u043b\u0435\u0439 \u0432 \u0419\u043e\u043c\u0440\u0430"
+          },
+          "style": null,
+          "awards": [
+            {
+              "id": 188,
+              "detail_id": 436,
+              "award_type": "Travelers Choice",
+              "year": "2025",
+              "display_name": null,
+              "image_tiny": "tripadvisor_images/984b95cd94a9dba9f0d366f8aa77d580.png",
+              "image_small": "tripadvisor_images/984b95cd94a9dba9f0d366f8aa77d580.png",
+              "image_large": "tripadvisor_images/984b95cd94a9dba9f0d366f8aa77d580.png"
+            },
+            {
+              "id": 189,
+              "detail_id": 436,
+              "award_type": "Travelers Choice",
+              "year": "2024",
+              "display_name": null,
+              "image_tiny": "tripadvisor_images/57eed05f7264b08b1d0c5137f1f8502c.png",
+              "image_small": "tripadvisor_images/57eed05f7264b08b1d0c5137f1f8502c.png",
+              "image_large": "tripadvisor_images/57eed05f7264b08b1d0c5137f1f8502c.png"
+            }
+          ]
+        },
+        "photos": [
+          {
+            "id": 14258,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/266941_34208812.jpg"
+          },
+          {
+            "id": 14259,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_16.jpg"
+          },
+          {
+            "id": 14260,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_18.jpg"
+          },
+          {
+            "id": 14261,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_32.jpg"
+          },
+          {
+            "id": 14262,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_34.jpg"
+          },
+          {
+            "id": 14263,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_41.jpg"
+          },
+          {
+            "id": 14264,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_15.jpg"
+          },
+          {
+            "id": 14265,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_17.jpg"
+          },
+          {
+            "id": 14266,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_26.jpg"
+          },
+          {
+            "id": 14267,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_33.jpg"
+          },
+          {
+            "id": 14268,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_35.jpg"
+          },
+          {
+            "id": 14269,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_40.jpg"
+          },
+          {
+            "id": 14270,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_27.jpg"
+          },
+          {
+            "id": 14271,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_30.jpg"
+          },
+          {
+            "id": 14272,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_31.jpg"
+          },
+          {
+            "id": 14273,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_44.jpg"
+          },
+          {
+            "id": 14274,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_45.jpg"
+          },
+          {
+            "id": 14275,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_19.jpg"
+          },
+          {
+            "id": 14276,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_20.jpg"
+          },
+          {
+            "id": 14277,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_36.jpg"
+          },
+          {
+            "id": 14278,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_37.jpg"
+          },
+          {
+            "id": 14279,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_38.jpg"
+          },
+          {
+            "id": 14280,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_50.jpg"
+          },
+          {
+            "id": 14281,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_51.jpg"
+          },
+          {
+            "id": 14282,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_52.jpg"
+          },
+          {
+            "id": 14283,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_53.jpg"
+          },
+          {
+            "id": 14284,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_54.jpg"
+          },
+          {
+            "id": 14285,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_55.jpg"
+          },
+          {
+            "id": 14286,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_56.jpg"
+          },
+          {
+            "id": 14287,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_57.jpg"
+          },
+          {
+            "id": 14288,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_58.jpg"
+          },
+          {
+            "id": 14289,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_59.jpg"
+          },
+          {
+            "id": 14290,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_60.jpg"
+          },
+          {
+            "id": 14291,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_61.jpg"
+          },
+          {
+            "id": 14292,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_62.jpg"
+          },
+          {
+            "id": 14293,
+            "hotel_key": 15212,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15212/Novotel_Trabzon_63.jpg"
+          }
+        ],
+        "nearbyItems": [
+          {
+            "item_index": 1,
+            "title": "Trabzon Ayasofya Muzeyi",
+            "description": "Vizantiya arxitekturasi bilan bezatilgan, hozirda muzey bo'lgan sobiq yunan pravoslav cherkovi.",
+            "distance": "4 kilometr"
+          },
+          {
+            "item_index": 2,
+            "title": "Atat\u00fcrk Saroyi",
+            "description": "Mustafa Kamol Otaturkni qabul qilgan tarixiy saroy, hozirda muzey.",
+            "distance": "11 kilometr"
+          },
+          {
+            "item_index": 3,
+            "title": "Trabzon Shahar Markazi",
+            "description": "Trabzondagi ko'ngilochar joylar, do'konlar va madaniy izlanishlar uchun ajoyib markaz.",
+            "distance": "8 kilometr"
+          },
+          {
+            "item_index": 4,
+            "title": "Sumela Monastiri",
+            "description": "Vizantiya davriga oid qoyada joylashgan ajoyib monastir, yam-yashil o'rmon bilan o'ralgan.",
+            "distance": "47 kilometr"
+          },
+          {
+            "item_index": 5,
+            "title": "Forum Trabzon Savdo Markazi",
+            "description": "Mahalliy va xalqaro brendlar, ovqatlanish joylari va ko'ngilochar markazlar bilan zamonaviy savdo markazi.",
+            "distance": "3 kilometr"
+          },
+          {
+            "item_index": 6,
+            "title": "Boztepe Tepasi",
+            "description": "Trabzonga qaraydigan tepalikdagi mehmonxona va dam olish uchun choy bog'lari bilan go'zal ko'rinishlar taklif etadi.",
+            "distance": "7 kilometr"
+          }
+        ],
+        "gptDetails": {
+          "short_description": "Novotel Trabzon zamonaviy sharoitlar va dengiz manzarasi bilan dam olish va ish safari uchun ideal joy."
+        },
+        "tags": []
+      }
+    },
+    {
+      "id": "0x430A00000023000000073D00000009000001AB000000000CE83836B31800000003A4260700003B8A000007B800002A1A0000000400000000000000000000000100000000B31F0000070000000001053B000000000201010000636363B3180000B31F000001000000000200000000000000000000000000000000000000000000000000000000",
+      "hotel_key": 15242,
+      "adult": 1,
+      "child": 0,
+      "nights": 7,
+      "price": "1712",
+      "price_old": "",
+      "state_id": 9,
+      "town_from_id": 1853,
+      "town_name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+      "check_in": "20250712",
+      "check_out": "20250719",
+      "tour_key": 427,
+      "converted_price_number": 22256000,
+      "converted_price_old": "",
+      "room": "\u041e\u0434\u043d\u043e\u043c\u0435\u0441\u0442\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440",
+      "meal": "BB",
+      "hotel": {
+        "hotel_key": 15242,
+        "name": "Zorlu Grand Hotel Trabzon",
+        "main_photo": "hotel-photos/15242/40541_40257156.jpg",
+        "town_key": 1853,
+        "state_key": 9,
+        "star_key": 5,
+        "star": "5*",
+        "star_alt": "5",
+        "hotel_url": "",
+        "order_number": 0,
+        "widget": null,
+        "top_hotel_status": false,
+        "top_hotel_order": 0,
+        "tour_operator_id": 4,
+        "short_description": "Zorlu Grand Hotel Trabzon - Trabzon markazidagi hashamatli mehmonxona bo'lib, yuqori darajadagi qulayliklar va shaharning diqqatga sazovor joylariga qulay kirishni taklif etadi.",
+        "detail": {
+          "id": 435,
+          "hotel_key": 15242,
+          "name": "Zorlu Grand Hotel Trabzon",
+          "location": {
+            "latitude": "41.005646",
+            "longitude": "39.728943",
+            "street1": "Maras Caddesi, No. 9",
+            "street2": "",
+            "city": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+            "state": "\u041f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u044f \u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+            "country": "\u0422\u0443\u0440\u0446\u0438\u044f",
+            "postalcode": "61100",
+            "address_string": "Maras Caddesi, No. 9, \u0422\u0440\u0430\u0431\u0437\u043e\u043d, Ortahisar 61100 \u0422\u0443\u0440\u0446\u0438\u044f",
+            "geo_location_id": "298039",
+            "geo_location_name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d"
+          },
+          "ratings": {
+            "overall": "3.9",
+            "rating_image": "tripadvisor_images/03193631797a9f10b9ab5034604901cb.svg",
+            "num_reviews": 299,
+            "details": {
+              "rating_1": 19,
+              "rating_2": 17,
+              "rating_3": 44,
+              "rating_4": 106,
+              "rating_5": 113,
+              "count": 299
+            }
+          },
+          "ranking": {
+            "position": "3",
+            "out_of": "151",
+            "display_string": "\u2116 3 \u0438\u0437 151 \u043e\u0442\u0435\u043b\u0435\u0439 \u0432 \u0422\u0440\u0430\u0431\u0437\u043e\u043d"
+          },
+          "style": null,
+          "awards": []
+        },
+        "photos": [
+          {
+            "id": 14294,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/40541_40257156.jpg"
+          },
+          {
+            "id": 14295,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_46.jpg"
+          },
+          {
+            "id": 14296,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_47.jpg"
+          },
+          {
+            "id": 14297,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_48.jpg"
+          },
+          {
+            "id": 14298,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_49.jpg"
+          },
+          {
+            "id": 14299,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_50.jpg"
+          },
+          {
+            "id": 14300,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_51.jpg"
+          },
+          {
+            "id": 14301,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_52.jpg"
+          },
+          {
+            "id": 14302,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_53.jpg"
+          },
+          {
+            "id": 14303,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_54.jpg"
+          },
+          {
+            "id": 14304,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_55.jpg"
+          },
+          {
+            "id": 14305,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_56.jpg"
+          },
+          {
+            "id": 14306,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_57.jpg"
+          },
+          {
+            "id": 14307,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_58.jpg"
+          },
+          {
+            "id": 14308,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_59.jpg"
+          },
+          {
+            "id": 14309,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_60.jpg"
+          },
+          {
+            "id": 14310,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_61.jpg"
+          },
+          {
+            "id": 14311,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_62.jpg"
+          },
+          {
+            "id": 14312,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_63.jpg"
+          },
+          {
+            "id": 14313,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_64.jpg"
+          },
+          {
+            "id": 14314,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_65.jpg"
+          },
+          {
+            "id": 14315,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_66.jpg"
+          },
+          {
+            "id": 14316,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_67.jpg"
+          },
+          {
+            "id": 14317,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_68.jpg"
+          },
+          {
+            "id": 14318,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_69.jpg"
+          },
+          {
+            "id": 14319,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_70.jpg"
+          },
+          {
+            "id": 14320,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_71.jpg"
+          },
+          {
+            "id": 14321,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_72.jpg"
+          },
+          {
+            "id": 14322,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_73.jpg"
+          },
+          {
+            "id": 14323,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_74.jpg"
+          },
+          {
+            "id": 14324,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_75.jpg"
+          },
+          {
+            "id": 14325,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_76.jpg"
+          },
+          {
+            "id": 14326,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_77.jpg"
+          },
+          {
+            "id": 14327,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_78.jpg"
+          },
+          {
+            "id": 14328,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_79.jpg"
+          },
+          {
+            "id": 14329,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_80.jpg"
+          },
+          {
+            "id": 14330,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_81.jpg"
+          },
+          {
+            "id": 14331,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_82.jpg"
+          },
+          {
+            "id": 14332,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_83.jpg"
+          },
+          {
+            "id": 14333,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_84.jpg"
+          },
+          {
+            "id": 14334,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_85.jpg"
+          },
+          {
+            "id": 14335,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_87.jpg"
+          },
+          {
+            "id": 14336,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_88.jpg"
+          },
+          {
+            "id": 14337,
+            "hotel_key": 15242,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/hotel-photos/15242/Zorlu_Grand_Hotel_89.jpg"
+          }
+        ],
+        "nearbyItems": [
+          {
+            "item_index": 1,
+            "title": "Trabzon Ayo Sofya muzeyi",
+            "description": "Ajoyib tarixiy joy bo'lib, unikal freskalar va arxitekturaga ega, dastlab Vizantiya cherkovi edi.",
+            "distance": "5 kilometr"
+          },
+          {
+            "item_index": 2,
+            "title": "Ataturk uyi",
+            "description": "Go'zal bog'lar bilan o'ralgan tarixiy villa, bir vaqtlar Turkiya asoschisi Mustafo Kemal Atat\u00fcrk yashagan.",
+            "distance": "7 kilometr"
+          },
+          {
+            "item_index": 3,
+            "title": "Trabzon shahar markazi",
+            "description": "Trabzonning jonli markazi bo'lib, xaridlar, ovqatlanish va madaniy tajribalar taklif etadi.",
+            "distance": "1 kilometr"
+          },
+          {
+            "item_index": 4,
+            "title": "Boztepe tepasi",
+            "description": "Trabzon va Qora dengiz sohilining panoramik ko'rinishlarini taqdim etuvchi mashhur joy.",
+            "distance": "3 kilometr"
+          },
+          {
+            "item_index": 5,
+            "title": "Trabzon muzeyi",
+            "description": "Tarixiy va madaniy boyliklarni namoyish qiluvchi va Trabzonga oid eksponatlar ko'rsatadigan muzey.",
+            "distance": "2 kilometr"
+          },
+          {
+            "item_index": 6,
+            "title": "Karadeniz Texnika Universiteti",
+            "description": "Trabzonning akademik muhiti uchun hissa qo'shuvchi taniqli ta'lim muassasasi.",
+            "distance": "6 kilometr"
+          }
+        ],
+        "gptDetails": {
+          "short_description": "Zorlu Grand Hotel Trabzon - Trabzon markazidagi hashamatli mehmonxona bo'lib, yuqori darajadagi qulayliklar va shaharning diqqatga sazovor joylariga qulay kirishni taklif etadi."
+        },
+        "tags": []
+      }
+    },
+    {
+      "id": "0x430A00000023000000073D00000009000001AB000000000CE837F0B31800000003A4260700003B6B000007B800002A1A0000000400000000000000000000000100000000B31F00000700000000011A97C00000000201010000636363B3180000B31F000001000000000200000000000000000000000000000000000000000000000000000000",
+      "hotel_key": 15211,
+      "adult": 1,
+      "child": 0,
+      "nights": 7,
+      "price": "1852",
+      "price_old": "",
+      "state_id": 9,
+      "town_from_id": 1853,
+      "town_name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+      "check_in": "20250712",
+      "check_out": "20250719",
+      "tour_key": 427,
+      "converted_price_number": 24076000,
+      "converted_price_old": "",
+      "room": "\u041e\u0434\u043d\u043e\u043c\u0435\u0441\u0442\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440",
+      "meal": "BB",
+      "hotel": {
+        "hotel_key": 15211,
+        "name": "Ramada Plaza Hotel & Spa Trabzon",
+        "main_photo": "images/hotels/1746603866/7EVu8o1Kornbqtf.jpg",
+        "town_key": 1853,
+        "state_key": 9,
+        "star_key": 5,
+        "star": "5*",
+        "star_alt": "5",
+        "hotel_url": "",
+        "order_number": 0,
+        "widget": null,
+        "top_hotel_status": false,
+        "top_hotel_order": 0,
+        "tour_operator_id": 4,
+        "short_description": "Ramada Plaza Hotel & Spa Trabzon zamonaviy qulayliklarga ega hashamatli turar joy va ajoyib dengiz manzaralarini taklif etadi.",
+        "detail": {
+          "id": 438,
+          "hotel_key": 15211,
+          "name": "Ramada Plaza Hotel & Spa Trabzon",
+          "location": {
+            "latitude": "40.985817",
+            "longitude": "39.817204",
+            "street1": "Gulyali Mevki Rize Cad No 23",
+            "street2": "",
+            "city": "Yalincak",
+            "state": "\u041f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u044f \u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+            "country": "\u0422\u0443\u0440\u0446\u0438\u044f",
+            "postalcode": "61000",
+            "address_string": "Gulyali Mevki Rize Cad No 23, Yalincak, Ortahisar 61000 \u0422\u0443\u0440\u0446\u0438\u044f",
+            "geo_location_id": "15842311",
+            "geo_location_name": "Yalincak"
+          },
+          "ratings": {
+            "overall": "4.2",
+            "rating_image": "tripadvisor_images/03193631797a9f10b9ab5034604901cb.svg",
+            "num_reviews": 251,
+            "details": {
+              "rating_1": 19,
+              "rating_2": 12,
+              "rating_3": 25,
+              "rating_4": 42,
+              "rating_5": 153,
+              "count": 251
+            }
+          },
+          "ranking": {
+            "position": "1",
+            "out_of": "8",
+            "display_string": "\u2116 1 \u0438\u0437 8 \u043e\u0442\u0435\u043b\u0435\u0439 \u0432 Yalincak"
+          },
+          "style": null,
+          "awards": []
+        },
+        "photos": [
+          {
+            "id": 14089,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/7EVu8o1Kornbqtf.jpg"
+          },
+          {
+            "id": 14086,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/2XUtvzzNs5Ktetb.jpg"
+          },
+          {
+            "id": 14084,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/02RatjxPD0jFIFC.jpg"
+          },
+          {
+            "id": 14085,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/0ALbzKd0AUcbey3.jpg"
+          },
+          {
+            "id": 14087,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/5cjEjbMQqulVIyX.jpg"
+          },
+          {
+            "id": 14088,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/63IdR8Ix7lspnM6.jpg"
+          },
+          {
+            "id": 14090,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/8iEnCSXq9zTGGWx.jpg"
+          },
+          {
+            "id": 14091,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/AOkpFc9ctc1je6r.jpg"
+          },
+          {
+            "id": 14092,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/AxOmcESvG8iqqon.jpg"
+          },
+          {
+            "id": 14093,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/C1jjollnhOXDvZT.jpg"
+          },
+          {
+            "id": 14094,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/EABxwRiHzbqHj35.jpg"
+          },
+          {
+            "id": 14095,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/EoE8MDDYetxKcCF.jpg"
+          },
+          {
+            "id": 14096,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/EozhVE9TPVxyYgU.jpg"
+          },
+          {
+            "id": 14097,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/IAkn1lBDyhsfkBo.jpg"
+          },
+          {
+            "id": 14098,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/K1mEeW9QaEV2Ghx.jpg"
+          },
+          {
+            "id": 14099,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/MMqEoMY4v9Mti6Z.jpg"
+          },
+          {
+            "id": 14100,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/MSMmS74f0FZWy4H.jpg"
+          },
+          {
+            "id": 14101,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/PEzX9OfI5JDbD7N.jpg"
+          },
+          {
+            "id": 14102,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/PnaooVMcQkFepGq.jpg"
+          },
+          {
+            "id": 14103,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/SDByw9KtZm4jJSP.jpg"
+          },
+          {
+            "id": 14104,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/UGseChD9XIhyL1R.jpg"
+          },
+          {
+            "id": 14105,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/W8Ay7SLLiUmTToM.jpg"
+          },
+          {
+            "id": 14106,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/WM4BoasYnTKWkIL.jpg"
+          },
+          {
+            "id": 14107,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/c2gSelqupTB8aM3.jpg"
+          },
+          {
+            "id": 14108,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/cu1BCsCNeWx78kN.jpg"
+          },
+          {
+            "id": 14109,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/eTo7WUIHNHxZd8Y.jpg"
+          },
+          {
+            "id": 14110,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/fLzMfd3dp7GYuXH.jpg"
+          },
+          {
+            "id": 14111,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/i4MeXeQBFbD1dQ4.jpg"
+          },
+          {
+            "id": 14112,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/iwntyTVSbTd0mcv.jpg"
+          },
+          {
+            "id": 14113,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/pE5pb3eD7VQJk1v.jpg"
+          },
+          {
+            "id": 14114,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/pJY5CBT5wDTD1N4.jpg"
+          },
+          {
+            "id": 14115,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/qTeWmZe4rpJPUeg.jpg"
+          },
+          {
+            "id": 14116,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/qUucrIiBBnjFnMd.jpg"
+          },
+          {
+            "id": 14117,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/r69XFhOPlR7DCpf.jpg"
+          },
+          {
+            "id": 14118,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/s5d5JynZ1LzGYPt.jpg"
+          },
+          {
+            "id": 14119,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/veQ2N8BkbfQzvKf.jpg"
+          },
+          {
+            "id": 14120,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/xBd9XUYq4wvuRLu.jpg"
+          },
+          {
+            "id": 14121,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/xaODC4Igij701yq.jpg"
+          },
+          {
+            "id": 14122,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/z7lFBdwHvJZl9H5.jpg"
+          },
+          {
+            "id": 14123,
+            "hotel_key": 15211,
+            "full_path": "https://travel-api.bpm-tripusk.uz/storage/images/hotels/1746603866/zAiPFYCV7LENOCw.jpg"
+          }
+        ],
+        "nearbyItems": [
+          {
+            "item_index": 1,
+            "title": "Trabzon Ayasofiya Muzeyi",
+            "description": "Ilgari yunon pravoslav cherkovi bo'lgan go'zal muzey, hayratlanarli freskalar va arxitekturasiga ega.",
+            "distance": "5 kilometr"
+          },
+          {
+            "item_index": 2,
+            "title": "Atat\u00fcrk uyi",
+            "description": "Mustafa Kemal Atat\u00fcrk hayoti haqida ma'lumot beruvchi, tinch bog'lar ichida joylashgan tarixiy uy.",
+            "distance": "12 kilometr"
+          },
+          {
+            "item_index": 3,
+            "title": "S\u00fcmela monastiri",
+            "description": "Boy tarixi va ajoyib panoramali manzaralari bilan mashhur jarlik yonidagi monastir.",
+            "distance": "45 kilometr"
+          },
+          {
+            "item_index": 4,
+            "title": "Trabzon Forum Savdo Markazi",
+            "description": "Turli xil do'konlar, ovqatlanish va ko'ngilochar joylarga ega zamonaviy savdo markazi.",
+            "distance": "9 kilometr"
+          },
+          {
+            "item_index": 5,
+            "title": "Uzung\u00f6l ko'li",
+            "description": "Yashil tog'lar bilan o'ralgan go'zal ko'l, ochiq havoda dam olish va hordiq chiqarish uchun ajoyib joy.",
+            "distance": "100 kilometr"
+          }
+        ],
+        "gptDetails": {
+          "short_description": "Ramada Plaza Hotel & Spa Trabzon zamonaviy qulayliklarga ega hashamatli turar joy va ajoyib dengiz manzaralarini taklif etadi."
+        },
+        "tags": []
+      }
+    }
+  ],
+  "tour_data": {
+    "id": 114,
+    "type": "\u041e\u0442\u0434\u044b\u0445",
+    "image": "tour-images/01JV28XY2VEMHSB3ANYN0ABW3E.png",
+    "partner": "MIR-JAHON (\u0434\u043b\u044f \u0442\u0443\u0440\u0430)",
+    "name_alt": "TR: \u0422\u0440\u0430\u0431\u0437\u043e\u043d, Centrum Air (TZX)",
+    "status": true,
+    "name_uz": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+    "name_ru": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+    "name_en": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+    "name": "\u0422\u0440\u0430\u0431\u0437\u043e\u043d",
+    "widget": null,
+    "visa_text": null,
+    "description": "\u0416\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u0430 \u0427\u0451\u0440\u043d\u043e\u0433\u043e \u043c\u043e\u0440\u044f \u043b\u0435\u0441\u0430, \u0433\u043e\u0440\u044b, \u0447\u0430\u0439\u043d\u044b\u0435 \u043f\u043b\u0430\u043d\u0442\u0430\u0446\u0438\u0438 \u0438 \u0434\u0440\u0435\u0432\u043d\u0438\u0435 \u043c\u0435\u0447\u0435\u0442\u0438 \u2014 \u0432\u0441\u0451 \u044d\u0442\u043e \u0432 \u043e\u0434\u043d\u043e\u043c \u0442\u0443\u0440\u0435. \u042d\u043a\u0441\u043a\u0443\u0440\u0441\u0438\u0438 \u0432 \u043f\u043e\u0434\u0430\u0440\u043e\u043a",
+    "image_original": "https://travel-api.bpm-tripusk.uz/storage/tour-images/01JV28XY2VEMHSB3ANYN0ABW3E.png",
+    "image_medium": null,
+    "image_thumbnail": null
+  },
+  "filters": {
+    "price_range": { "min": 15691000, "max": 24076000 },
+    "star_keys": ["5", "4"]
+  }
+}
