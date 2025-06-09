@@ -7,6 +7,7 @@ import Sort from '../ui/Sort';
 import { FilterIcon } from '@/assets/icons/FilterIcon';
 import { FrameIcon } from '@/assets/icons/FrameIcon';
 import { SortIcon } from '@/assets/icons/SortIcon';
+import { DropdownMenu, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Skeleton } from '@/components/ui/skeleton';
 import { cn } from '@/lib/utils';
 
@@ -29,7 +30,7 @@ const Travels = () => {
           Мы подобрали для вас только лучшие отели
         </h5>
       </div>
-      <div className="mt-[10px] flex items-center justify-center gap-1.5 ">
+      <div className="mt-[10px] flex items-center justify-center md:justify-start gap-1.5 ">
         <div
           role="button"
           aria-disabled={isFetchingTravels}
@@ -41,18 +42,37 @@ const Travels = () => {
           <FilterIcon className="text-blue size-[21px]" />
           Фильтры
         </div>
+
         <div
           onClick={() => setIsModalOpen(true)}
           role="button"
           aria-disabled={isFetchingTravels}
           className={cn(
-            'py-[13px] px-[17.5px] bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+            'py-[13px] px-[17.5px] md:hidden bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
             isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
           )}
         >
           <SortIcon className="text-blue size-[21px]" />
           Сортировка
         </div>
+
+        <DropdownMenu>
+          <DropdownMenuTrigger className="md:flex hidden" asChild>
+            <div
+              onClick={() => setIsModalOpen(true)}
+              role="button"
+              aria-disabled={isFetchingTravels}
+              className={cn(
+                'py-[13px] px-[17.5px] bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+                isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
+              )}
+            >
+              <SortIcon className="text-blue size-[21px]" />
+              Сортировка
+            </div>
+          </DropdownMenuTrigger>
+          <Sort isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+        </DropdownMenu>
 
         <div
           role="button"
@@ -79,8 +99,6 @@ const Travels = () => {
             travels?.data?.map((travel) => <Card key={travel.id} travel={travel} />)}
         </div>
       </div>
-
-      <Sort isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
     </div>
   );
 };
