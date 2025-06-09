@@ -11,6 +11,23 @@
   font-family: 'Golos Text', sans-serif;
 }
 
+.font-monospace {
+  font-family: monospace;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
 
 @custom-variant dark (&:is(.dark *));
 

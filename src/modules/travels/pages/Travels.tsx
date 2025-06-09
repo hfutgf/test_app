@@ -1,5 +1,8 @@
+import { useState } from 'react';
+
 import { useFetchTravels } from '../hooks/use-fetch-travels';
 import Card from '../ui/Card';
+import Sort from '../ui/Sort';
 
 import { FilterIcon } from '@/assets/icons/FilterIcon';
 import { FrameIcon } from '@/assets/icons/FrameIcon';
@@ -8,6 +11,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { cn } from '@/lib/utils';
 
 const Travels = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const { isFetchingTravels, travels } = useFetchTravels();
 
   return (
@@ -38,6 +42,7 @@ const Travels = () => {
           Фильтры
         </div>
         <div
+          onClick={() => setIsModalOpen(true)}
           role="button"
           aria-disabled={isFetchingTravels}
           className={cn(
@@ -74,6 +79,8 @@ const Travels = () => {
             travels?.data?.map((travel) => <Card key={travel.id} travel={travel} />)}
         </div>
       </div>
+
+      <Sort isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
     </div>
   );
 };
