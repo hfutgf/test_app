@@ -96,7 +96,9 @@ const Travels = () => {
         )}
         <div className="flex flex-col gap-[15px]">
           {!isFetchingTravels &&
-            travels?.data?.map((travel) => <Card key={travel.id} travel={travel} />)}
+            travels?.data?.map((travel) => (
+              <Card key={travel.id} travel={travel} tourData={travels.tour_data} />
+            ))}
         </div>
       </div>
     </div>
