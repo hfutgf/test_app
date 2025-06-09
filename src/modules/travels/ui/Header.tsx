@@ -13,15 +13,25 @@ const Header = () => {
         onClick={() => navigate(-1)}
         variant={'secondary'}
         size={'icon'}
-        className="w-[50px] h-[50px] rounded-lg"
+        className="w-12 h-12 md:w-[50px] md:h-[50px] rounded-lg"
       >
         <ArrowLeft className="size-6 text-blue-950" />
       </Button>
-      <div className="w-full h-[50px] bg-gray flex flex-col items-center justify-center rounded-lg">
-        <h5 className="font-semibold text-base text-blue-950">Москва - Ташкент</h5>
-        <span className="font-normal text-sm text-gray-500">28-31 августа, 2 взрослых</span>
+
+      <div className="flex-1 max-w-md h-12 md:h-[50px] bg-gray-50 flex flex-col items-center justify-center rounded-lg px-4">
+        <h5 className="font-semibold text-sm md:text-base text-blue-950 truncate">
+          Москва - Ташкент
+        </h5>
+        <span className="font-normal text-xs md:text-sm text-gray-500 truncate">
+          28-31 августа, 2 взрослых
+        </span>
       </div>
-      <Button variant={'secondary'} size={'icon'} className="w-[50px] h-[50px] rounded-lg">
+
+      <Button
+        variant={'secondary'}
+        size={'icon'}
+        className="w-12 h-12 md:w-[50px] md:h-[50px] rounded-lg"
+      >
         <EditIcon className="size-6 text-blue-950" />
       </Button>
     </header>

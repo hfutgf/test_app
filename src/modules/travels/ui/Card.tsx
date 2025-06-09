@@ -18,7 +18,7 @@ const Card = ({ travel }: { travel: TravelType }) => {
   const [selected, setSelelcted] = useState<boolean>(false);
 
   return (
-    <div className="bg-white rounded-lg overflow-hidden w-[410px] h-auto">
+    <div className="bg-white rounded-lg overflow-hidden w-full  h-auto shadow-sm hover:shadow-md transition-shadow">
       <div className="w-full h-[184px] rounded-md overflow-hidden relative">
         <img src="/images/CardImage.jpg" alt="card-img" className="w-full h-full object-cover" />
         <div className="absolute top-2.5 left-2.5 z-50 bg-white rounded-[10px] flex items-center gap-1 px-2.5">
@@ -43,6 +43,7 @@ const Card = ({ travel }: { travel: TravelType }) => {
           <LocationIcon className="text-blue h-[14px] w-[10px]" />
           <span className="text-sm">ОАЭ, Дубай Марина</span>
         </div>
+
         <div className="flex items-center gap-1 mt-[10px]">
           <PlaneIcon className="size-[25px]" /> +
           <HotelIcon className="w-[21px] h-[25px]" /> +
@@ -50,11 +51,13 @@ const Card = ({ travel }: { travel: TravelType }) => {
           <ForkKnifeIcon className="size-[25px]" /> +
           <EarPhoneIcon className="size-6" />
         </div>
+
         <div className="mt-[10px]">
           <p className="text-dark text-base font-normal leading-[19px]">
             Элитный отель с изысканными номерами, элегантным рестораном, открытым бассейном и баром.
           </p>
         </div>
+
         <div className="mt-[10px] pb-[10px] border-b border-dashed border-blue">
           <Carousel
             opts={{
