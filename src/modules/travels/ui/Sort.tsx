@@ -1,5 +1,5 @@
 import { CheckIcon } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { FilterSectionsIcon } from '@/assets/icons/FilterSectionsIcon';
 import { SortAscIcon } from '@/assets/icons/SortAscIcon';
@@ -11,11 +11,11 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 type SortProps = {
   isModalOpen: boolean;
   setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setSortValue: React.Dispatch<React.SetStateAction<string>>;
+  sortValue: string;
 };
 
-export default function Sort({ isModalOpen, setIsModalOpen }: SortProps) {
-  const [selectedSort, setSelectedSort] = useState('cheapest');
-
+export default function Sort({ isModalOpen, setIsModalOpen, setSortValue, sortValue }: SortProps) {
   useEffect(() => {
     if (isModalOpen) {
       document.body.style.overflow = 'hidden';
@@ -75,8 +75,8 @@ export default function Sort({ isModalOpen, setIsModalOpen }: SortProps) {
 
                 <div className="mt-[15px] flex flex-col gap-2.5">
                   <RadioGroup
-                    value={selectedSort}
-                    onValueChange={setSelectedSort}
+                    value={sortValue}
+                    onValueChange={setSortValue}
                     className="flex flex-col gap-[10px]"
                   >
                     {sortOptions.map((option) => (
@@ -123,14 +123,14 @@ export default function Sort({ isModalOpen, setIsModalOpen }: SortProps) {
           {sortOptions.map((option) => (
             <DropdownMenuItem
               key={option.id}
-              onSelect={() => setSelectedSort(option.id)}
+              onSelect={() => setSortValue(option.id)}
               className="flex items-center justify-between px-3 py-2 rounded-md cursor-pointer"
             >
               <div className="flex items-center gap-3">
                 <span className="text-blue-500">{option.icon}</span>
                 <span className="text-sm text-gray-900">{option.label}</span>
               </div>
-              {selectedSort === option.id && <CheckIcon className="w-4 h-4 text-blue-500" />}
+              {sortValue === option.id && <CheckIcon className="w-4 h-4 text-blue-500" />}
             </DropdownMenuItem>
           ))}
         </DropdownMenuContent>

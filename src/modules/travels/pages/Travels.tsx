@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useFetchTravels } from '../hooks/use-fetch-travels';
+import type { TravelType } from '../types/travels.types';
 import Card from '../ui/Card';
 import Sort from '../ui/Sort';
 
@@ -12,8 +13,22 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { cn } from '@/lib/utils';
 
 const Travels = () => {
+  const [travels, setTravels] = useState<TravelType[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const { isFetchingTravels, travels } = useFetchTravels();
+  const { isFetchingTravels, travels: travelsResponse } = useFetchTravels();
+  const [sortValue, setSortValue] = useState<string>('cheapest');
+
+  useEffect(() => {
+    if (travelsResponse?.status) {
+      if (sortValue === 'cheapest') {
+        setTravels([...travelsResponse.data].sort((a, b) => Number(a.price) - Number(b.price)));
+      } else if (sortValue === 'expensive') {
+        setTravels([...travelsResponse.data].sort((a, b) => Number(b.price) - Number(a.price)));
+      } else {
+        setTravels(travelsResponse.data);
+      }
+    }
+  }, [sortValue, travelsResponse?.data, travelsResponse?.status]);
 
   return (
     <div className="mt-4 px-2.5 overflow-hidden">
@@ -71,7 +86,12 @@ const Travels = () => {
               Сортировка
             </div>
           </DropdownMenuTrigger>
-          <Sort isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+          <Sort
+            isModalOpen={isModalOpen}
+            setIsModalOpen={setIsModalOpen}
+            setSortValue={setSortValue}
+            sortValue={sortValue}
+          />
         </DropdownMenu>
 
         <div
@@ -96,8 +116,8 @@ const Travels = () => {
         )}
         <div className="flex flex-col gap-[15px]">
           {!isFetchingTravels &&
-            travels?.data?.map((travel) => (
-              <Card key={travel.id} travel={travel} tourData={travels.tour_data} />
+            travels?.map((travel) => (
+              <Card key={travel.id} travel={travel} tourData={travelsResponse?.tour_data} />
             ))}
         </div>
       </div>

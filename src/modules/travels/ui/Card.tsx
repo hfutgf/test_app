@@ -14,13 +14,13 @@ import { Badge } from '@/components/ui/badge';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import formatPrice from '@/utils/formatPrice';
 
-const Card = ({ travel, tourData }: { travel: TravelType; tourData: TourDataType }) => {
+const Card = ({ travel, tourData }: { travel: TravelType; tourData?: TourDataType }) => {
   const [selected, setSelelcted] = useState<boolean>(false);
 
   return (
     <div className="bg-white rounded-lg overflow-hidden w-full  h-auto shadow-sm hover:shadow-md transition-shadow">
       <div className="w-full h-[184px] md:h-[350px] rounded-md overflow-hidden relative">
-        <img src={tourData.image_original} alt="card-img" className="w-full h-full object-cover" />
+        <img src={tourData?.image_original} alt="card-img" className="w-full h-full object-cover" />
         <div className="absolute top-2.5 left-2.5 z-50 bg-white rounded-[10px] flex items-center gap-1 px-2.5">
           <StarIcon className="size-[18px]" />
           <span className="text-blue-950 text-[15px] font-normal leading-[30px]">5</span>
@@ -37,7 +37,7 @@ const Card = ({ travel, tourData }: { travel: TravelType; tourData: TourDataType
       </div>
       <div className="w-full pt-[14px] px-4 pb-[16px]">
         <h2 className="text-dark font-medium text-[19px]">
-          {tourData.name} & {tourData.partner}
+          {tourData?.name} & {tourData?.partner}
         </h2>
         <div className="flex items-center gap-[5px]">
           <LocationIcon className="text-blue h-[14px] w-[10px]" />
@@ -53,7 +53,7 @@ const Card = ({ travel, tourData }: { travel: TravelType; tourData: TourDataType
         </div>
 
         <div className="mt-[10px]">
-          <p className="text-dark text-base font-normal leading-[19px]">{tourData.description}</p>
+          <p className="text-dark text-base font-normal leading-[19px]">{tourData?.description}</p>
         </div>
 
         <div className="mt-[10px] pb-[10px] border-b border-dashed border-blue">
