@@ -35,7 +35,7 @@ const Travels = () => {
           role="button"
           aria-disabled={isFetchingTravels}
           className={cn(
-            'py-[12.5px] px-[10.5px] bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+            'py-[12.5px] px-[10.5px] cursor-pointer hover:opacity-80 bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
             isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
           )}
         >
@@ -48,7 +48,7 @@ const Travels = () => {
           role="button"
           aria-disabled={isFetchingTravels}
           className={cn(
-            'py-[13px] px-[17.5px] md:hidden bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+            'py-[13px] px-[17.5px] cursor-pointer hover:opacity-80 md:hidden bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
             isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
           )}
         >
@@ -63,7 +63,7 @@ const Travels = () => {
               role="button"
               aria-disabled={isFetchingTravels}
               className={cn(
-                'py-[13px] px-[17.5px] bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+                'py-[13px] px-[17.5px] cursor-pointer hover:opacity-80 bg-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
                 isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
               )}
             >
@@ -78,7 +78,7 @@ const Travels = () => {
           role="button"
           aria-disabled={isFetchingTravels}
           className={cn(
-            'py-[13px] px-[17.5px] bg-blue text-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
+            'py-[13px] px-[17.5px] cursor-pointer hover:opacity-80 bg-blue text-white text-base leading-[18px] font-normal rounded-lg flex items-center gap-1.5',
             isFetchingTravels && 'pointer-events-none opacity-50 cursor-not-allowed'
           )}
         >
@@ -96,7 +96,9 @@ const Travels = () => {
         )}
         <div className="flex flex-col gap-[15px]">
           {!isFetchingTravels &&
-            travels?.data?.map((travel) => <Card key={travel.id} travel={travel} />)}
+            travels?.data?.map((travel) => (
+              <Card key={travel.id} travel={travel} tourData={travels.tour_data} />
+            ))}
         </div>
       </div>
     </div>
